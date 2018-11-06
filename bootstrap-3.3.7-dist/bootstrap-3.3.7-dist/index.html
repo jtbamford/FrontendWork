@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" src="css/bootstrap.css">
+    <link rel="stylesheet" src="css/try.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/mine.js"></script>
+  </head>
+  <body>
+
+    <p>
+    <label>Name </label>
+    <input id="t1" name = "text"
+          />
+  </p>
+
+  <p>
+  <label>Age </label>
+  <input id="t2"
+         age = "myText"
+     />
+</p>
+
+<p>
+<label>Occupation </label>
+<input id="t3"
+       occupation = "text here" />
+</p>
+
+    <input type="button" value="Create Person" onclick="create(document.getElementById('t1').value,document.getElementById('t2').value,document.getElementById('t3').value);"/>
+    <input type="button" value="Output Person" onclick="output();"/>
+    <!-- <input type="button" value="Edit Person" onclick="edit(document.getElementById('t1').value,document.getElementById('t2').value,document.getElementById('t3').value);"/> -->
+
+
+
+  </body>
+</html>
